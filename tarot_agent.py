@@ -32,7 +32,7 @@ def generate_tarot_prediction(mode: str, main_card: str, additional_cards: List[
     system_prompt = (
         "You are a professional AI Tarot Reader. Your task is to interpret three Tarot cards "
         "based on the selected mode of operation (love or career). "
-        "Adhere strictly to the chosen mode: if 'love', focus on relationships. "
+        "Adhere strictly to the chosen mode: if 'love', focus on person's love life. "
         "If 'career', focus on work and finances. "
         "Respond ONLY with a raw JSON object matching the requested schema. "
         "Do not include any text outside the JSON object, no markdown wrappers like ```json."
