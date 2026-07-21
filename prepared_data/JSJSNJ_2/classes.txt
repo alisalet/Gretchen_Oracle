@@ -1,0 +1,78 @@
+The Fool
+The Magician
+The High Priestess
+The Empress
+The Emperor
+The Hierophant
+The Lovers
+The Chariot
+Strength
+The Hermit
+Wheel of Fortune
+Justice
+The Hanged Man
+Death
+Temperance
+The Devil
+The Tower
+The Star
+The Moon
+The Sun
+Judgement
+The World
+King of Wands
+Queen of Wands
+Knight of Wands
+Page of Wands
+Ten of Wands
+Nine of Wands
+Eight of Wands
+Seven of Wands
+Six of Wands
+Five of Wands
+Four of Wands
+Three of Wands
+Two of Wands
+Ace of Wands
+King of Cups
+Queen of Cups
+Knight of Cups
+Page of Cups
+Ten of Cups
+Nine of Cups
+Eight of Cups
+Seven of Cups
+Six of Cups
+Five of Cups
+Four of Cups
+Three of Cups
+Two of Cups
+Ace of Cups
+King of Swords
+Queen of Swords
+Knight of Swords
+Page of Swords
+Ten of Swords
+Nine of Swords
+Eight of Swords
+Seven of Swords
+Six of Swords
+Five of Swords
+Four of Swords
+Three of Swords
+Two of Swords
+Ace of Swords
+King of Pentacles
+Queen of Pentacles
+Knight of Pentacles
+Page of Pentacles
+Ten of Pentacles
+Nine of Pentacles
+Eight of Pentacles
+Seven of Pentacles
+Six of Pentacles
+Five of Pentacles
+Four of Pentacles
+Three of Pentacles
+Two of Pentacles
+Ace of Pentacles

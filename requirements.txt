@@ -1,0 +1,14 @@
+opencv-python~=5.0.0.93
+numpy~=2.5.1
+setuptools~=83.0.0
+pyserial~=3.5
+gTTS~=2.5.4
+moviepy~=2.2.1
+pillow~=11.3.0
+mediapipe~=0.10.35
+ultralytics~=8.4.95
+matplotlib~=3.11.0
+anylabeling~=0.4.36
+python-dotenv~=1.2.2
+openai~=1.109.1
+pydantic~=2.13.4
