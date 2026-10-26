@@ -22,19 +22,20 @@ class GretchenHardware:
         try:
             self.robot = Robot(motor_path, cam_path)
             self.robot.start()
-            self.robot.center()
+            # Вместо center() сразу поднимаем голову к человеку
+            self.look_at_face()
         except Exception as e:
             print(f"Robot hardware connection failed: {e}. Running in simulation.")
             self.robot = None
 
     def look_at_face(self):
-        """Абсолютное позиционирование: центрирование, смотрим на человека."""
+        """Абсолютное позиционирование: подъем головы к человеку."""
         if self.robot:
-            self.robot.move(0.0, 0.0)
+            self.robot.move(0.0, 0.5)
             time.sleep(0.5)
 
     def look_at_table(self):
-        """Абсолютное позиционирование: голова наклонена вниз к картам."""
+        """Абсолютное позиционирование: наклон вниз к картам."""
         if self.robot:
             self.robot.move(0.0, -0.4)
             time.sleep(0.5)
@@ -54,8 +55,7 @@ class GretchenHardware:
             time.sleep(0.2)
             self.robot.up(0.4)
             time.sleep(0.2)
-            self.robot.move(0.0, 0.0)
-
+            self.look_at_face()
 
     def shake(self):
         if self.robot:
@@ -71,4 +71,4 @@ class GretchenHardware:
             time.sleep(0.2)
             self.robot.left(0.3)
             time.sleep(0.2)
-            self.robot.move(0.0, 0.0)
+            self.look_at_face()

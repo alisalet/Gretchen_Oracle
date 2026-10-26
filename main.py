@@ -212,7 +212,6 @@ def create_prediction_window(
     canvas = Image.new("RGBA", (width, height), (20, 12, 28, 255))
     draw = ImageDraw.Draw(canvas)
 
-    # Внешние декоративные рамки
     draw.rectangle(
         [12, 12, width - 12, height - 12], outline=(212, 175, 55, 255), width=2
     )
@@ -238,7 +237,6 @@ def create_prediction_window(
     bottom_y = height - 45
     available_height = bottom_y - top_y
 
-    # --- Подбор размера шрифта под длинный текст ---
     font_size = 17
     line_spacing = 25
     lines = []
@@ -316,6 +314,10 @@ def main():
 
     cv2.namedWindow("Gretchen Oracle", cv2.WINDOW_NORMAL)
     cv2.resizeWindow("Gretchen Oracle", 1280, 840)
+    cap = cv2.VideoCapture(0)
+
+    cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 
     current_state = STATE_START_MENU
     selected_mode_name = None
